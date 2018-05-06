@@ -1,0 +1,23 @@
+{
+    "users": [
+      { "id": 1, "username": "zhi", "flashcards": [
+          {
+              "id": 1,
+              "en": "small",
+              "pinyin": "xiao",
+              "hanzi": "小",
+              "known": true,
+              "timeToAnswer": 850,
+              "lastAnswered": "2018-04-23T18:25:43.511Z"
+          }
+      ] }
+    ],
+    "flashcards": [
+        {
+            "id": 1,
+            "en": "small",
+            "pinyin": "xiao",
+            "hanzi": "小"
+        }
+    ]
+}
