@@ -5,7 +5,7 @@ Hot pot flashcards is e-learning application which aims to provide the quickest,
 ## Contributors
 
 - Chen Zhi ([view profile](https://github.com/chen-zhi))
-- Kałkus Arkadiusz ([a link](https://github.com/kalkusa))
+- Kałkus Arkadiusz ([view profile](https://github.com/kalkusa))
 
 ## Technology stack
 
