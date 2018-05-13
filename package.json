@@ -1,0 +1,20 @@
+{
+  "name": "hot-pot-flashcards",
+  "version": "1.0.0",
+  "description": "Hot pot flashcards is e-learning application which aims to provide the quickest, and the most effective way to learn Chinese language.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node watch.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chen-zhi/hot-pot-flashcards.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chen-zhi/hot-pot-flashcards/issues"
+  },
+  "homepage": "https://github.com/chen-zhi/hot-pot-flashcards#readme"
+}
