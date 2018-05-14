@@ -5,7 +5,7 @@ console.log(process.platform);
 if (isWin) {
     console.log("OS: Win");
 } else {
-    consolelog("OS: Mac/Linux");
+    console.log("OS: Mac/Linux");
 }
 var fsTimeout;
 deployContainer();
@@ -31,7 +31,8 @@ function deployContainer() {
         });
         child.stdin.end();
     } else {
-        let child = spawn("sh", ["./front-end/buildAndRunContainer.sh"]);
+        let child = spawn("sh", ["./buildAndRunFrontEndContainer.sh"]);
+        //let child = spawn("sh", ["pa"]);
         child.on("exit", function () {
             console.log('Container has been deployed successfuly');
         });
