@@ -1,8 +1,7 @@
-imageName="node"
-containerName="hot-pot-flashcards-container"
+$imageName="node"
+$containerName="hot-pot-flashcards-container"
 
-echo $1
-docker build -t $imageName -f $1 .
+docker build -t $imageName -f  .\\front-end\\Dockerfile .\\front-end\
 
 echo Delete old container...
 docker rm -f $containerName

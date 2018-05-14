@@ -22,7 +22,7 @@ fs.watch('.', {
 function deployContainer() {
     console.log('Deploying container...');
     if (isWin) {
-        let child = spawn("powershell.exe", ["\\front-end\\buildAndRunContainer.ps1"]);
+        let child = spawn("powershell.exe", [".\\buildAndRunFrontEndContainer.ps1"]);
         child.on("exit", function () {
             console.log('Container has been deployed successfuly');
         });
